@@ -1,7 +1,7 @@
 canvas {
   position: absolute;
   top: 0;
-  left: 0;
+  left: 12px;
 }
 p {
   margin: 0 0;
@@ -25,4 +25,5 @@ p > a:first-of-type {
 body {
   overflow: hidden;
   font-family: 'Roboto', sans-serif;
+  background-color: #111;
 }

@@ -4,12 +4,12 @@ let w = (c.width = window.innerWidth),
   hw = w / 2;
 (hh = h / 2),
   (opts = {
-    strings: ["Feliz", "Cumpleaños", "Vanesa"],
-    charSize: 45,
-    charSpacing: 35,
-    lineHeight: 45,
+    strings: ["Feliz", "Cumpleaños", "Vanesa ♥"],
+    charSize: 35,
+    charSpacing: 30,
+    lineHeight: 40,
 
-    cx: w / 2,
+    cx: (w / 2),
     cy: h / 2,
 
     fireworkPrevPoints: 10,
@@ -395,6 +395,8 @@ window.addEventListener("resize", function () {
 
   hw = w / 2;
   hh = h / 2;
+
+  
 
   ctx.font = opts.charSize + "px Roboto";
 });
